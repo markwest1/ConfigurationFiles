@@ -1,5 +1,5 @@
 # ConfigurationFiles
-----
+
 ## Vim
 * _vimrc
 * _gvimrc
