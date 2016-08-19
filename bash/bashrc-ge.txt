@@ -10,17 +10,26 @@ set -o vi
 export set PATH=$PATH:"/c/Program Files/Java/jdk1.8.0_45/bin"
 
 # Alias
-alias gvim="'C:/Program Files (x86)/Vim/vim74/gvim.exe'"
+alias gvi='cyg-wrapper.sh "C:/Program Files (x86)/Vim/vim74/gvim.exe" --fork=1'
+alias gvim="C:/Program\ Files\ \(x86\)/Vim/vim74/gvim.exe"
+alias thrift="/d/code/proto/thrift/thrift-0.9.3.exe"
+alias sshaws=""
 
 # HTTP_PROXY
-export HTTP_PROXY="http://218024862:password@pitc-zscaler-americas-cincinnati3pr.proxy.corporate.ge.com:80"
-export HTTPS_PROXY="https://218024862:password@pitc-zscaler-americas-cincinnati3pr.proxy.corporate.ge.com:80"
+#export HTTP_PROXY=http://218024862:password@pitc-zscaler-americas-cincinnati3pr.proxy.corporate.ge.com:80
+#export HTTPS_PROXY=https://218024862:password@pitc-zscaler-americas-cincinnati3pr.proxy.corporate.ge.com:80
+#export http_proxy=http://iss-americas-pitc-alpharetta.corporate.ge.com:80
+#export https_proxy=http://iss-americas-pitc-alpharetta.corporate.ge.com:80
+#export http_proxy=http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80
+#export https_proxy=http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80
 
 # PATH
-export GOPATH="/c/gocode"
+export GOPATH="/d/code/go"
 export PATH="$PATH":"$GOPATH/bin"
 
 # Cloud Foundry Go buildpack
-export GO_BUILD_PACK="https://github.com/cloudfoundry/go-buildpack"
-export CF_ENDPOINT="https://api.grc-apps.svc.ice.ge.com"
+export GO_BUILDPACK="https://github.com/cloudfoundry/go-buildpack"
+export CF_R2_API="https://api.grc-apps.svc.ice.ge.com"
+export CF_COLO_API="https://api.system.asv-pr.ice.predix.io"
+export CF_PIVOTAL_API="https://api.run.pivotal.io"
 

@@ -58,6 +58,7 @@ if version >= 500
 
 endif
 
-colorscheme elflord
+"colorscheme elflord
+colorscheme kolor
 set nobackup nowritebackup
 set visualbell

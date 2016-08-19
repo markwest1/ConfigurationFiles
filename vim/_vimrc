@@ -1,7 +1,7 @@
 set nocompatible
 source $VIMRUNTIME/vimrc_example.vim
-source $VIMRUNTIME/mswin.vim
-behave mswin
+"source $VIMRUNTIME/mswin.vim
+"behave mswin
 
 set diffexpr=MyDiff()
 function MyDiff()
@@ -37,5 +37,7 @@ set nu
 
 "http://www.vim.org/ugrankar.pdf
 execute pathogen#infect()
+colorscheme kolor
 filetype plugin indent on
-set guifont=Consolas:h12
+set guifont=Consolas:h10
+
