@@ -1,0 +1,56 @@
+{
+	"VCAP_SERVICES": {
+		"user-provided": [{
+			"credentials": {
+				"adminUrl": "https://stuf-rc.run.asv-pr.ice.predix.io/admin-mtmkh5jep",
+				"clientId": "12pspvp704hwlacshcbvfwe7mn5qaj90t3kepi",
+				"clientSecret": "zwu8eiug1yvwdxyh6rkdt8rgjdfnjfeu40hyy",
+				"configServiceUrl": "https://config-stuf-rc.run.asv-pr.ice.predix.io",
+				"securityServiceUrl": "https://security-stuf-rc.run.asv-pr.ice.predix.io",
+				"serviceInstanceId": "ea1a0245-1758-4e66-abf0-f253956a7820",
+				"tenantServiceUrl": "https://tenancy-stuf-rc.run.asv-pr.ice.predix.io",
+				"trustedIssuer": "https://4126b27b-6860-48ee-9dc1-9cba313eac9f.predix-uaa.run.asv-pr.ice.predix.io/oauth/token",
+				"uaaUrl": "https://4126b27b-6860-48ee-9dc1-9cba313eac9f.predix-uaa.run.asv-pr.ice.predix.io",
+				"userServiceUrl": "https://users-stuf-rc.run.asv-pr.ice.predix.io"
+			},
+			"label": "user-provided",
+			"name": "stuf",
+			"syslog_drain_url": "",
+			"tags": []
+		}, {
+			"credentials": {
+				"adminUrl": "https://ss-admin-dev.run.asv-pr.ice.predix.io/services/ss/v0/admin/",
+				"bindUrl": "https://ss-admin-dev.run.asv-pr.ice.predix.io/services/ss/v0/tenantbind/",
+				"hostUrl": "https://ss-admin-dev.run.asv-pr.ice.predix.io/services/ss/v0/hosts/"
+			},
+			"label": "user-provided",
+			"name": "ss-admin",
+			"syslog_drain_url": "",
+			"tags": []
+		}, {
+			"credentials": {
+				"url": "https://ss-analytic-dev.run.asv-pr.ice.predix.io/services/ss/v2/analytics/"
+			},
+			"label": "user-provided",
+			"name": "ss-analytic",
+			"syslog_drain_url": "",
+			"tags": []
+		}, {
+			"credentials": {
+				"url": "https://ss-resource-manager-dev.run.asv-pr.ice.predix.io/api/v0"
+			},
+			"label": "user-provided",
+			"name": "ss-resource-manager",
+			"syslog_drain_url": "",
+			"tags": []
+		}, {
+			"credentials": {
+				"url": "https://ss-observation-collector-dev.run.asv-pr.ice.predix.io/api/v0/ocr"
+			},
+			"label": "user-provided",
+			"name": "ss-observation-collector",
+			"syslog_drain_url": "",
+			"tags": []
+		}]
+	}
+}
