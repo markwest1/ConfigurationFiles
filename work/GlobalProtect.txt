@@ -1,0 +1,9 @@
+Username: GECIS\mark.west
+Password: g^gMKx$f(Xx9
+Portal: asvvpn01.gecis.io
+
+DOMAIN: GECIS
+
+SERVICES: 10.128.4.75 asv-apm-01.gecis.io
+    CORE: 10.128.4.76 asv-apm-02.gecis.io
+DATABASE: 10.128.4.77 asv-apm-03.gecis.io
