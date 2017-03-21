@@ -1,0 +1,13 @@
+jen-iphone6	78:d7:5f:17:f1:91
+optiplex-360	00:21:9b:6a:cc:75
+chromebook	a4:c4:94:5a:40:9c
+mark-lg-g4	a0:39:f7:7d:db:91
+epson-xp-400	a4:ee:57:c0:50:45
+josh-macbook	c8:69:cd:98:9b:1a
+roku-2xs	cc:6d:a0:b5:83:97
+josh-iphone6	78:d7:5f:7b:c2:2d
+jack-macbook	64:76:ba:9c:8e:b0
+jack-iphone6	d0:33:11:11:8e:cd
+kindle-reader	a0:02:dc:0f:2b:b0
+justin-ipad	f4:5c:89:07:c2:0d
+justin-nexus5	f8:a9:d0:01:76:97
