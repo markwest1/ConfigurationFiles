@@ -1,0 +1,32 @@
+[alias]
+	ab = branch -a
+	br = branch
+	co = checkout
+	st = status
+	ci = commit
+	dno = diff --name-only
+	rpo = remote prune origin
+	lg = log -10 --pretty=oneline --graph --decorate=short
+	fp = push -f
+    kd = difftool -y
+    kds = difftool --staged -y
+	ds = diff --staged
+	cip = !git commit -am \"$(date)\" && git push
+[user]
+	email = mark.west1@gmail.com
+	name = mark.west1
+[credential]
+	helper = wincred
+[merge]
+	tool = kdiff3
+[mergetool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+	trustExitCode = true
+[diff]
+	guitool = kdiff3
+[difftoool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+[difftool]
+	trustExitCode = false
+[core]
+	autocrlf = false
